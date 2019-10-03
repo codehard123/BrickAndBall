@@ -5,9 +5,7 @@ using UnityEngine;
 public class PowerUps : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject oneUp;
-    public GameObject NarrowBlade;
-    public GameObject ExtendBlade;
+    public GameObject Powerup;
      
     void Start()
     {

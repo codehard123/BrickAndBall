@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6002734483426240674}
   m_Layer: 0
   m_Name: BlueTile
-  m_TagString: Blue
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,3 +120,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1332ea0d601e6844b48216277224c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerup: {fileID: 9092301997682036761, guid: fb0d0a679bb4d7044b6c5cbb8bf629d1, type: 3}

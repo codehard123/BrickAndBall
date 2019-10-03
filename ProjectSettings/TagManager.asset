@@ -8,6 +8,24 @@ TagManager:
   - Bat
   - Level
   - ParticleSystem
+  - RightEnd
+  - LeftEnd
+  - speedUp
+  - compressArrow
+  - 2X
+  - bulletPowerUp
+  - 1Up
+  - dollar
+  - shield
+  - extendedArrow
+  - blocked
+  - solidBall
+  - Left
+  - Right
+  - Top
+  - Tile
+  - Sphere
+  - barrel
   layers:
   - Default
   - TransparentFX

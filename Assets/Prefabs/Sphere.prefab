@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2491238356167997261}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +90,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7598335889359085253}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
@@ -98,7 +98,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f0b94bd6990ebfa41b15779d0ff61dcf, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -115,7 +115,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b1a1daa1225e54f928119b8526602d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrel: {fileID: 2923039604366804748, guid: 048753d612440db45bb6723484dacef2, type: 3}
   speed: 4
+  leftEnd: {fileID: 2449880403945350570, guid: 6d6b49d1c3b988141a3b78e52b75d1c2, type: 3}
+  rightEnd: {fileID: 8706773148054254884, guid: cb12dd9b6f65edd47b7173d75bcbf186,
+    type: 3}
+  multiplier: 50
 --- !u!58 &410328011522282727
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -144,4 +149,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f5f75403bc75ed4d937874978c9cb41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ps: {fileID: 0}
